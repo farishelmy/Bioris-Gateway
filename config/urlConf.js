@@ -1,6 +1,6 @@
 module.exports={
-    // biorisUrl:'http://192.168.56.101:8081/bioris-web', //dev
-    biorisUrl:'http://192.168.0.110:8081/bioris-web',
+  biorisUrl:'http://192.168.0.110:8081/bioris-web', //office dev
+  // biorisUrl:'http://202.75.55.37:8081/bioris-web', //umah dev
     whitListUrl:['http://localhost:3000','http://localhost:8000'],
     servIp:function(){
         const os = require('os')
